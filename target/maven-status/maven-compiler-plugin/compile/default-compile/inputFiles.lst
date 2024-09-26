@@ -1,0 +1,16 @@
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/UserscrudApplication.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/exception/UserNotFoundException.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/security/SpringSecurityConfiguration.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/repository/UserRepository.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/service/UserService.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/repository/PostRepository.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/security/SpringSecurityConfiguration.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/service/UserServiceImpl.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/entity/User.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/exception/CustomizedResponseEntityExceptionHandler.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/controller/UserControllerV2.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/exception/ErrorDetails.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/controller/UserController.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/service/PostServiceImpl.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/service/PostService.java
+/Users/mayurikulkarni/synergisticit-code/DevOps-Started-6-August-2024/assessment-9-26-24/userscrud/src/main/java/com/example/userscrud/entity/Post.java

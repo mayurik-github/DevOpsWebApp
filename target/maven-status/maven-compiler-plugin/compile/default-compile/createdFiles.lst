@@ -1,0 +1,16 @@
+com/example/userscrud/repository/PostRepository.class
+com/example/userscrud/controller/UserControllerV2.class
+com/example/userscrud/service/PostServiceImpl.class
+com/example/security/SpringSecurityConfiguration.class
+com/example/userscrud/service/PostService.class
+com/example/userscrud/service/UserServiceImpl.class
+com/example/userscrud/exception/CustomizedResponseEntityExceptionHandler.class
+com/example/userscrud/repository/UserRepository.class
+com/example/userscrud/exception/UserNotFoundException.class
+com/example/userscrud/entity/User.class
+com/example/userscrud/service/UserService.class
+com/example/UserscrudApplication.class
+com/example/userscrud/exception/ErrorDetails.class
+com/example/userscrud/entity/Post.class
+com/example/userscrud/controller/UserController.class
+security/SpringSecurityConfiguration.class
