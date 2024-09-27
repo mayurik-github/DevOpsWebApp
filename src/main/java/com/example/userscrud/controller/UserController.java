@@ -39,6 +39,7 @@ public class UserController {
 	
 	@GetMapping("")
 	public List<User> getAllUsers(){
+		System.out.println("Get all users...");
 		return userService.getAllUsers();
 	}
 	
