@@ -79,6 +79,7 @@ public class UserController {
 	
 	@PostMapping("/{email}/posts")
 	public ResponseEntity<Post> createPost(@RequestBody Post post, @PathVariable String email) {
+		System.out.println("create posts...");
 		User postuser = userService.getUser(email);
 		post.setUser(postuser);
 		
