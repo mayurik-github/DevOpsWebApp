@@ -45,6 +45,7 @@ public class UserController {
 	
 	@GetMapping("/{email}")
 	public User retrieveUser(@PathVariable String email) {
+		System.out.println("Retrieve user by email...");
 		return userService.getUser(email);
 	}
 	
