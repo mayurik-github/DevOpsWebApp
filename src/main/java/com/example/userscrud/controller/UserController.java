@@ -53,6 +53,11 @@ public class UserController {
 		userService.deleteUser(email);
 	}
 	
+	@DeleteMapping("/name/{name}")
+	public void deleteUserByName(@PathVariable String name) {
+		userService.deleteUserByName(name);
+	}
+	
 	@PostMapping("")
 	public ResponseEntity<User> createUser(@Valid @RequestBody User user){
 		System.out.println("Create user...");

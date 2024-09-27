@@ -5,6 +5,7 @@ com/example/security/SpringSecurityConfiguration.class
 com/example/userscrud/service/PostService.class
 com/example/userscrud/service/UserServiceImpl.class
 com/example/userscrud/exception/CustomizedResponseEntityExceptionHandler.class
+com/example/userscrud/exception/MultipleUserException.class
 com/example/userscrud/repository/UserRepository.class
 com/example/userscrud/exception/UserNotFoundException.class
 com/example/userscrud/entity/User.class

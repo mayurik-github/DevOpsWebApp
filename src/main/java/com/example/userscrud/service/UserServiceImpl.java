@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.userscrud.entity.User;
+import com.example.userscrud.exception.MultipleUserException;
 import com.example.userscrud.exception.UserNotFoundException;
 import com.example.userscrud.repository.UserRepository;
 
@@ -42,6 +43,15 @@ public class UserServiceImpl implements UserService {
 	public void deleteUser(String email) {
 		User user = userRepository.findByEmailAddress(email);
 		userRepository.delete(user);
+	}
+
+	@Override
+	public void deleteUserByName(String name) {
+		List<User> users = userRepository.findByName(name);
+		if(users.size() > 1) {
+			throw new MultipleUserException("Multiple users found with same name, can't be deleted.");
+		}
+		userRepository.delete(users.get(0));
 	}
 
 }
