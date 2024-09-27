@@ -30,6 +30,13 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		return new ResponseEntity(errorDetails, HttpStatus.NOT_FOUND);
 	}
 	
+	@ExceptionHandler(MultipleUserException.class)
+	public final ResponseEntity<Object> handleMultipleUserException(Exception ex, WebRequest request) throws Exception {
+		ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), request.getDescription(false), ex.getMessage());
+		
+		return new ResponseEntity(errorDetails, HttpStatus.BAD_REQUEST);
+	}
+	
 	@Override
 	protected ResponseEntity<Object> handleMethodArgumentNotValid(
 			MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatusCode status, WebRequest request) {
