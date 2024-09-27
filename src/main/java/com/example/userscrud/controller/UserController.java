@@ -77,6 +77,7 @@ public class UserController {
 	// To retrieve posts of User
 	@GetMapping("/{email}/posts")
 	public List<Post> retrievePosts(@PathVariable String email) {
+		System.out.println("Retrieve posts...");
 		User user = userService.getUser(email);
 		return user.getPosts();
 	}
